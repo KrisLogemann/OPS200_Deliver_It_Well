@@ -37,6 +37,7 @@ describe('server/app.js', function() {
       done();
     });
   });
+})
 
   it('page says yo whats up', (done) => {
     chai.request(server)
@@ -47,4 +48,3 @@ describe('server/app.js', function() {
         done();
       });
   });
-})
